@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food gallery</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="headermenu">
+        <div class="burgericon">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="searchbox">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input type="text" placeholder="Search" />
+        </div>
+        <div class="menuicons">
+          <i class="fa-solid fa-bowl-food"></i>
+          <div class="carticon">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <span>0</span>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section class="cover">
+      <div class="coverover">
+        <h1>Quick Site</h1>
+        <span>Where Taste Takes the Fast Lane</span>
+      </div>
+    </section>
+
+    <main>
+      
+      <h2 class="sectionHanding">Food Items</h2>
+      <div class="cardlist">
+        <div class="card">
+          <img src="image/burger-1.png" alt="" />
+          <h4 class="cartTitle">Aloo tiki Burger</h4>
+          <div class="cartprice">
+            <div class="price">₹129</div>
+            <i class="fa-solid fa-plus add-to-cart"></i>
+          </div>
+        </div>
+        <div class="card">
+          <img src="image/burger-2.png" alt="" />
+          <h4 class="cartTitle">veg. Burger</h4>
+          <div class="cartprice">
+            <div class="price">₹189</div>
+            <i class="fa-solid fa-plus add-to-cart"></i>
+          </div>
+        </div>
+        <div class="card">
+          <img src="image/pizza-1.png" alt="" />
+          <h4 class="cartTitle">Veg. pizza</h4>
+          <div class="cartprice">
+            <div class="price">₹429</div>
+            <i class="fa-solid fa-plus add-to-cart"></i>
+          </div>
+        </div>
+        <div class="card">
+          <img src="image/drink-3.png" alt="" />
+          <h4 class="cartTitle">White Lemon</h4>
+          <div class="cartprice">
+            <div class="price">₹79</div>
+            <i class="fa-solid fa-plus add-to-cart"></i>
+          </div>
+        </div>
+        <div class="card">
+          <img src="image/dessert-3.png" alt="" />
+          <h4 class="cartTitle">Choco Shake</h4>
+          <div class="cartprice">
+            <div class="price">₹149</div>
+            <i class="fa-solid fa-plus add-to-cart"></i>
+          </div>
+        </div>
+        <div class="card">
+          <img src="image/dish-1.png" alt="" />
+          <h4 class="cartTitle">Meggie</h4>
+          <div class="cartprice">
+            <div class="price">₹119</div>
+            <i class="fa-solid fa-plus add-to-cart"></i>
+          </div>
+        </div>
+      </div>
+      <div class="sidevar" id="sidebar">
+        <div class="sidevarclose">
+          <i class="fa-solid fa-close"></i>
+        </div>
+          <div class="cardmenu">
+            <h3>My cart</h3>
+            <div class="carttems">test 1</div>
+          </div>
+          <div class="sidebarfooter">
+            <div class="totalamount">
+              <h5>Total</h5>
+              <div class="carttotal">₹empty</div>
+            </div>
+            <button class="checkoutbtn">checkout</button>
+          </div>
+        
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
